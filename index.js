@@ -173,6 +173,10 @@ function version(program, projectPath) {
 		}
 	}
 
+	if (programOpts.versionBuild) {
+		programOpts.setBuild = appPkg.version;
+	}
+
 	var appJSON;
 	const appJSONPath = path.join(projPath, "app.json");
 	const isExpoApp = isExpoProject(projPath);
