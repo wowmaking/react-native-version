@@ -13,7 +13,7 @@ The fork adds:
 ### Setup
 
 ```bash
-npm i github:wowmaking/react-native-version --save-dev
+npm i github:wowmaking/react-native-version#<commit-hash> --save-dev
 ```
 
 Hook into the "version" or "postversion" npm script in your app's package.json:
